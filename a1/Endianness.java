@@ -4,6 +4,7 @@ public class Endianness {
 
   public static int bigEndianValue (Byte[] mem) {
 
+      return ((mem[0] & 0xff) << 24) | ((mem[1] & 0xff) << 16) | ((mem[2] & 0xff) << 8) | (mem[3] & 0xff);
   }
   
   public static int littleEndianValue (Byte[] mem) {
