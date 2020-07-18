@@ -1,0 +1,15 @@
+01 02 03 04 big endian: 16909060
+	    little endian: 67305985
+04 03 02 01 little endian : 16909060
+	    big endian: 67305985
+Test passed
+Simple test to ensure  that the function perform little endian and big endian correctly
+The big endian value we get by running 01 02 03 04 should be the same when we run 04 03 02 01 and get the little endian value
+
+80 01 02 03
+Big endian: -2147417597
+Little endian: 50463104
+The negative test should successfully give us negative number as the big endian result when running the program
+
+
+

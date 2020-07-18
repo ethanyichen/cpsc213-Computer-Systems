@@ -1,0 +1,3 @@
+printf("  You are visitor #%s.\n", id);
+// id is an integer, but printf here expects a string with %s.
+// changing the %s to %d should solve the issue.

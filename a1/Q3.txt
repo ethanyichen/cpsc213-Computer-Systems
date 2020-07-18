@@ -1,0 +1,3 @@
+E4B3B3E4
+When the bytes are symmetrical, big endian and little endian values will be the same
+For example, symmetrical means when we start counting a 4 byte int at address 0x7000, the values at 0x7000 and 0x7003 should be the same and the values at 0x7001 and 0x7002 should be the same

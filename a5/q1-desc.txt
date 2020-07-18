@@ -1,0 +1,14 @@
+Read necessary for value of i.
+Read necessary for value of struct pointer a.
+Read necessary for value of int pointer a->x.
+Read necessary for value of int value a->x[i].
+Read necessary for value of int value a->b.y[i].
+Read necessary for value of struct pointer a->b.a.
+Read necessary for value of int pointer a->b.a->x.
+Read necessary for value of int value a->b.a->x[i].
+
+Write necessary for changing value stored in v0.
+Write necessary for changing value stored in v1.
+Write necessary for changing value stored in v2.
+Write necessary for changing value stored in struct pointer a->b.a.
+Write necessary for changing value stored in v3.

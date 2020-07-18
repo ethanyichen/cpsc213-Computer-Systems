@@ -1,0 +1,8 @@
+Convert the two decimal numbers to hex
+D: -2,256,461 to hex(4 byte); 0xFFDD91B3
+RA: 521829 to hex: 0x0007F665
+It is wrong as the Hubble data set is using big endian while we are using intel's little endian to evaluate it.
+To get the correct answer, we will change these bytes to little endian.
+D : 0xB391DDFF in decimal -1282286081
+RA: 0x65F60700 in decimal 1710622464 
+search for the decimals above instead

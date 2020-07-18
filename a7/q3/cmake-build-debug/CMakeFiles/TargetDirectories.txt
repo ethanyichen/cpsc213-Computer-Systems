@@ -1,0 +1,2 @@
+/Users/ethanzhang/Downloads/a7code/q3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ethanzhang/Downloads/a7code/q3/cmake-build-debug/CMakeFiles/edit_cache.dir
